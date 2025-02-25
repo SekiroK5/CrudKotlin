@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base de la aplicación -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="materialButtonStyle">@style/ButtonStyle</item>
+        <item name="textInputStyle">@style/EditTextStyle</item>
+    </style>
+
+    <!-- Estilo para los botones -->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.025</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="elevation">2dp</item>
+    </style>
+
+    <!-- Estilo para los campos de entrada -->
+    <style name="EditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/colorAccent</item>
+    </style>
+
+    <!-- Estilo para títulos -->
+    <style name="TextViewTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- Estilo para subtítulos -->
+    <style name="TextViewSubtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:alpha">0.87</item>
+    </style>
+
+    <!-- Estilo para la Toolbar -->
+    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextColor">@color/colorWhite</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Estilo para botones secundarios -->
+    <style name="ButtonStyle.Secondary" parent="ButtonStyle">
+        <item name="android:backgroundTint">@color/colorTextSecondary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+</resources>
